@@ -1,0 +1,13 @@
+title: Suspected DNS tunnelling - abnormally long query name
+id: c0f3a2b8-6d91-4a7c-8e52-1b9f4d7a6604
+logsource: dns
+description: DNS query names consisting of a single abnormally long label (30+
+  characters, no dots) are a common signal of DNS tunnelling (data exfiltration /
+  C2 channel) - real domains have dots.
+level: high
+mitre: T1048.003
+detection:
+  selection:
+    event_type: dns_query
+    qname|re: '^[A-Za-z0-9-]{30,}$'
+  condition: selection

@@ -1,0 +1,11 @@
+title: Invalid SSH user enumeration attempts
+id: 3a7c9d21-8b44-4c0a-bd1e-77a5c8f21002
+logsource: linux-auth
+description: SSH login attempts against usernames that do not exist - classic
+  pre-brute-force enumeration.
+level: medium
+mitre: T1110.003
+detection:
+  selection:
+    action: invalid_user
+  condition: selection

@@ -1,0 +1,11 @@
+title: SSH Brute Force - repeated failures from one source
+id: 5f2b1a40-1c11-4a5e-9f66-2f0a94f3e001
+logsource: linux-auth
+description: More than 10 failed password attempts from a single IP within 5 minutes.
+level: high
+mitre: T1110.001
+detection:
+  selection:
+    action: failed_password
+  timeframe: 5m
+  condition: selection | count() by src_ip > 10

@@ -1,0 +1,21 @@
+Sep 22 08:59:01 web01 sshd[2101]: Accepted password for osama from 10.0.0.12 port 51122 ssh2
+Sep 22 09:00:14 web01 sudo: pam_unix(sudo:auth): authentication failure; logname=osama uid=1000 euid=0 tty=/dev/pts/0 ruser=osama rhost=  user=osama
+Sep 22 09:14:22 web01 sshd[2140]: Failed password for invalid user oracle from 203.0.113.44 port 40110 ssh2
+Sep 22 09:14:25 web01 sshd[2141]: Failed password for invalid user postgres from 203.0.113.44 port 40118 ssh2
+Sep 22 09:14:29 web01 sshd[2142]: Failed password for invalid user admin from 203.0.113.44 port 40133 ssh2
+Sep 22 09:31:02 web01 sshd[2160]: Accepted password for osama from 10.0.0.12 port 51190 ssh2
+Sep 22 10:47:11 web01 sshd[2201]: Failed password for invalid user test from 198.51.100.7 port 51001 ssh2
+Sep 22 10:47:13 web01 sshd[2202]: Failed password for invalid user test from 198.51.100.7 port 51003 ssh2
+Sep 22 10:47:15 web01 sshd[2203]: Failed password for invalid user guest from 198.51.100.7 port 51005 ssh2
+Sep 22 10:47:17 web01 sshd[2204]: Failed password for root from 198.51.100.7 port 51007 ssh2
+Sep 22 10:47:19 web01 sshd[2205]: Failed password for root from 198.51.100.7 port 51009 ssh2
+Sep 22 10:47:21 web01 sshd[2206]: Failed password for admin from 198.51.100.7 port 51011 ssh2
+Sep 22 10:47:23 web01 sshd[2207]: Failed password for admin from 198.51.100.7 port 51013 ssh2
+Sep 22 10:47:25 web01 sshd[2208]: Failed password for ftp from 198.51.100.7 port 51015 ssh2
+Sep 22 10:47:27 web01 sshd[2209]: Failed password for user from 198.51.100.7 port 51017 ssh2
+Sep 22 10:47:29 web01 sshd[2210]: Failed password for ubuntu from 198.51.100.7 port 51019 ssh2
+Sep 22 10:47:31 web01 sshd[2211]: Failed password for osama from 198.51.100.7 port 51021 ssh2
+Sep 22 10:47:33 web01 sshd[2212]: Failed password for osama from 198.51.100.7 port 51023 ssh2
+Sep 22 10:47:35 web01 sshd[2213]: Failed password for osama from 198.51.100.7 port 51025 ssh2
+Sep 22 10:47:37 web01 sshd[2214]: Failed password for osama from 198.51.100.7 port 51027 ssh2
+Sep 22 10:52:04 web01 sshd[2240]: Accepted password for osama from 10.0.0.12 port 51244 ssh2

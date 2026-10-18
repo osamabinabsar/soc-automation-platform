@@ -1,0 +1,12 @@
+title: Sudo authentication failure
+id: 9d1e4b77-2f05-4e39-9c2a-6b8d0a5e3303
+logsource: linux-auth
+description: A user failed sudo authentication - possible privilege-escalation
+  attempt or credential stuffing against elevated access.
+level: medium
+mitre: T1548.003
+detection:
+  selection:
+    component: sudo
+    action|contains: authentication failure
+  condition: selection

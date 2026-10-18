@@ -1,0 +1,12 @@
+title: SQL injection probe in web request
+id: e5b7c3d9-1a02-4f68-b3d7-9c2e8f60aa05
+logsource: web
+description: Request path or query string contains classic SQL injection
+  payloads (union select, quote-and-comment, tautologies quoted or bare).
+level: high
+mitre: T1190
+detection:
+  selection:
+    event_type: web_request
+    path|re: "(?i)(union\\s+select|or\\s+'?1'?\\s*=\\s*'?1'?|'\\s*--|sleep\\s*\\()"
+  condition: selection

